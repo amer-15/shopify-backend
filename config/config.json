@@ -1,0 +1,24 @@
+{
+  "development": {
+    "use_env_variable":"DATABASE_URL_DEV",
+    "username": "postgres",
+    "password": "amer$1234",
+    "database": "shopify",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": "amer$1234",
+    "database": "khaled_cars_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "amer$1234",
+    "database": "khaled_cars_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
